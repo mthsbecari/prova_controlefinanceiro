@@ -6,6 +6,7 @@ body {
   background-color: #f5f5f5;
   color: #333;
 }
+
 .form {
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +41,7 @@ body {
 .form button:hover {
   background-color: #09003b;
 }
+
 .total {
   background: white;
   padding: 16px 20px;
@@ -47,4 +49,39 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   margin-bottom: 20px;
   font-size: 16px;
+}
+
+.total strong {
+  color: #100068;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+th {
+  background-color: #100068;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }
