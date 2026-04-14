@@ -26,7 +26,7 @@ function adicionarGasto() {
 
   atualizarTela();
 }
-r
+
 function editarGasto(indice) {
   indiceSendoEditado = indice;
   document.getElementById("descricao").value = gastos[indice].descricao;
