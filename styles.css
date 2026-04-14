@@ -85,3 +85,22 @@ td {
 tr:last-child td {
   border-bottom: none;
 }
+
+.valor-alto {
+  color: red;
+  font-weight: bold;
+}
+
+.btn-remover {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-remover:hover {
+  background-color: #610a00;
+}
